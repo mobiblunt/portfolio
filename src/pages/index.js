@@ -69,7 +69,7 @@ export default function Home() {
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/img/quiz.jpg"
+                src="./assets/img/crypto.PNG"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
@@ -90,7 +90,7 @@ export default function Home() {
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/img/dashboard.png"
+                src="./assets/img/dealership.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
@@ -111,7 +111,7 @@ export default function Home() {
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/img/password.jpg"
+                src="./assets/img/bedspace.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"

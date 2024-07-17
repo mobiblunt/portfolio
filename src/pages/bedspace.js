@@ -5,6 +5,7 @@ const bedspace = () => {
     const description = "A web application for temporary lodging. Users can authenticate, view dashboard, book listings and also post listings as hosts. it is implemented using Laravel and Mysql on the backend and InertiaJs, ReactJs and Tailwind CSS on the client side."
 
     const overview = "Bedspace Overview"
+    const img = './assets/img/bedspace.png'
 
     const link = "https://github.com/mobiblunt/bedspaces"
 
@@ -12,7 +13,7 @@ const bedspace = () => {
 
     const tools = ['Laravel PHP', 'ReactJs', 'InertiaJs', 'MYSQL', 'TailwindCSS']
   return (
-    <Project title="Bedspace" description={description} tools={tools} overview={overview} link={link} repo={repo}/>
+    <Project img={img} title="Bedspace" description={description} tools={tools} overview={overview} link={link} repo={repo}/>
   )
 }
 
