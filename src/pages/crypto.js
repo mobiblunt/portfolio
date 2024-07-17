@@ -6,7 +6,7 @@ const crypto = () => {
 
     const overview = "Crypto Overview"
 
-    const img = './assets/img/crypto.PNG'
+    const img = './assets/img/crypto.png'
 
     const link = "https://github.com/mobiblunt/bedspaces"
 

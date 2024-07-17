@@ -69,7 +69,7 @@ export default function Home() {
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/img/crypto.PNG"
+                src="./assets/img/crypto.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
