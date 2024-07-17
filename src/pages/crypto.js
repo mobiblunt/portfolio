@@ -6,6 +6,8 @@ const crypto = () => {
 
     const overview = "Crypto Overview"
 
+    const img = './assets/img/crypto.PNG'
+
     const link = "https://github.com/mobiblunt/bedspaces"
 
     const repo = "https://github.com/mobiblunt/bedspaces"
@@ -13,7 +15,7 @@ const crypto = () => {
     const tools = ['NodeJs', 'ReactJs', 'ExpressJs', 'GraphQl', 'TailwindCSS']
 
   return (
-    <Project title="Live Crypto Convertor Application" description={description} tools={tools} overview={overview} link={link} repo={repo}/>
+    <Project img={img} title="Live Crypto Convertor Application" description={description} tools={tools} overview={overview} link={link} repo={repo}/>
   )
 }
 

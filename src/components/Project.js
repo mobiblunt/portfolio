@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Project = ({title, description, tools, overview, link, repo}) => {
+const Project = ({title, description, img, tools, overview, link, repo}) => {
   return (
     <div>
         <section class="project-cs-hero">
@@ -21,7 +21,7 @@ const Project = ({title, description, tools, overview, link, repo}) => {
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
             <img
-              src="./assets/img/quiz.jpg"
+              src={img}
               alt="Project Image"
               class="project-details__showcase-img"
             />
